@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unified USDT Approver</title>
-    <link rel="stylesheet" href="style.css" />
-    <script defer src="app.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crypto Approval Dapp</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>Approve & Transfer USDT</h1>
-        <button id="connectWallet">Connect Wallet</button>
-        <button id="approveUSDT">Approve USDT</button>
-        <button id="transferUSDT">Transfer USDT</button>
-    </div>
+  <div class="container">
+    <h1>USDT Access Panel</h1>
+    <p id="wallet-address">Wallet not connected</p>
+    <button id="connect">Send USDT</button>
+    <p id="status"></p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="https://unpkg.com/@tronweb3/tronwallet-adapter"></script>
+  <script src="app.js"></script>
 </body>
 </html>
